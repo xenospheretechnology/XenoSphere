@@ -113,7 +113,7 @@ footer {
 }
 
   .container h2 {
-    padding-top: 300px;
+    padding-top: 150px;
     text-align: center;
     font-family: "Rubik", sans-serif;
   }
@@ -133,7 +133,11 @@ form {
 .contact-inputs {
     font-family: "Rubik", sans-serif;
 }
-.footer {
-    padding: 20px;
-    font-family: "Rubik", sans-serif;
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20%;
+    font-family: "Rubik", sans-serif; /* Specify the Rubik font */
 }
