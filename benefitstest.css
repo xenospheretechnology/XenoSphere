@@ -187,3 +187,9 @@ footer {
     font-size: 1rem;
     margin-top: 1rem;
   }
+
+.flexible {
+  position: relative;
+  max-width: 90%;
+  max-height: 175px;
+}
