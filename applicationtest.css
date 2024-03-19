@@ -87,6 +87,7 @@ li a {
     padding: 14px 10px; /* Decrease padding to fit more text */
     text-decoration: none;
     font-family: Rubik;
+    font-size: 15px;
 }
 
 footer {
