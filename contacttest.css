@@ -36,6 +36,16 @@ li a {
     padding: 14px 10px; /* Decrease padding to fit more text */
     text-decoration: none;
     font-family: Rubik;
+    font-size: 12px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-family: "Rubik", sans-serif;
 }
 
 body {
@@ -114,13 +124,7 @@ form button {
     font-family: "Rubik", sans-serif;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    font-family: "Rubik";
-}
+
 
 .yt, .insta {
     width: 50px;
