@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <script src="contact.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" media="screen and (min-width: 1200px)" href="cssfiles/contact.css">
+        <link rel="stylesheet" media="screen and (max-width: 900px)" href="cssfiles/contacttest.css">
+        </head>
+        <body>
+    <nav> 
+    <ul class="navbarlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jobpostings.html">Job Postings</a></li>
+        <li><a href="benefits.html">Benefits</a></li>
+        <li><a href="application.html">Apply Today!</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <a href="index.html"><img src="images/logo.png" alt="" class="logo"></a>
+    </nav>
+    <div class="container">
+        <h1>Get Help Today!</h1>
+        <p>Fill out this form or send us an email to get in touch with a representative today.</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Send your request</h3>
+                <form id="web"action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                    <input type="hidden" name="access_key" value="479337f5-b2ca-4525-9158-a487b78121bf">
+                    <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                    <input type="number" id="phone" placeholder="Phone Number" class="contact-inputs" required>
+                    <textarea name="message" placeholder="Your Message" class="contact-inputs"></textarea> 
+            <button href="contact.html" type="submit"> Submit</button>
+
+                </form>
+            </div>
+            <div class="contact-right">
+                <h3>Reach us via email or phone as well!</h3>
+                <p class="mail">Email: <a href="mailto:xenospheretech@gmail.com">xenospheretech@gmail.com</a></p>
+                <p class="phnumber">Phone Number: 123-456-7890</p>
+                <p class="Address">Address: 1234 AwesomeTech Street, Alpharetta 30040</p>
+                <h3>Our Socials!</h3>
+                <div class="social">
+                <ul class="social-icons">
+                    <li><a href="https://www.youtube.com/channel/UCY93eUSwtmIgiDN_TC78Xjw" target="_blank"><img src="images/youtube.png" alt="" class="yt"></a></li>
+                    <li><a href="https://www.instagram.com/XenoSphereTech" target="_blank"><img src="images/instagram.png" alt="" class="insta"></a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+    <footer>
+        <p>&copy; 2024 XenoSphere Tech. All rights reserved</p>
+        <a class="cred" href="references.html">Credits</a>
+        </footer>
+</html>
+<script>document.getElementById('web').reset();</script>

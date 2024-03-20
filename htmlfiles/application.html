@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Application form</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" media="screen and (min-width: 1100px)" href="cssfiles/style.css">
+        <link rel="stylesheet" media="screen and (max-width: 900px)" href="cssfiles/applicationtest.css">
+    </head>
+<body>
+    <nav> 
+        <ul class="navbarlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jobpostings.html">Job Postings</a></li>
+        <li><a href="benefits.html">Benefits</a></li>
+        <li><a href="application.html">Apply Today!</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+        <a href="index.html"><img src="images/logo.png" alt="" class="logo"></a>
+    </nav>
+    <div class="container">
+        <form id="web"action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>APPLICATION FORM</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="479337f5-b2ca-4525-9158-a487b78121bf">
+            <input type="text" name="first name" placeholder="Your first Name" class="contact-inputs" required>
+            <input type="text" name="last name" placeholder="Your last Name" class="contact-inputs" required>
+            <label for="birthday" class="contact-inputs" required> Date of Birth:</label>
+            <input type="date" name="birthday" placeholder="mm/dd/yyyy" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <input type="number" id="phone" placeholder="Phone Number" class="contact-inputs" required>
+            <label for="open-positions" class="contact-inputs" required>Choose your job position: </label> 
+            <select name="open-positions" id="open-positions" required> 
+                <option value="none">Pick one of the jobs below</option>
+                <option value="Softwaredev">Software Developer</option> 
+                <option value="Datanalyst">Data Analyst</option> 
+                <option value="dmmanager">Digital Marketing Manager</option> 
+                <option value="Csanalyst">Cyber Security Analyst</option> 
+                <option value="Projectman">Project Manager</option>
+                <option value="Productman">Product manager</option>
+            </select>
+            <input type="file" id="resume" name="resume" placeholder="upload resume" class="contact-inputs">
+            <textarea name="message" placeholder="Tell us more about yourself" class="contact-inputs"></textarea> 
+            <button href="contact.html" type="submit"> Submit</button>
+        </form>
+    </div>
+    <div class="contact-right">
+    </div>
+    <footer>
+      <div class="footer"
+      <p>&copy; 2024 XenoSphere Tech. All rights reserved</p>
+      <a class="cred" href="references.html">Credits</a>
+    </div>
+  </footer>
+  </body>
+</html>
+   
+   
+
+
+<script>document.getElementById('web').reset();</script>
