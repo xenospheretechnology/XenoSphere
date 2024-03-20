@@ -102,9 +102,7 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
-  input[type="date"]:before {
+  input[type="date"]:after {
     content: attr(placeholder) !important;
-    color: #aaa;
-    margin-right: 0.5em;
   }
 
