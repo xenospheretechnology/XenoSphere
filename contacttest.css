@@ -66,8 +66,8 @@ body {
 }
 
 .contact-left {
-    flex-basis: 60%;
-    padding: 20px;
+    flex-basis: 40%;
+    padding: 10px;
 }
 
 .contact-right {
