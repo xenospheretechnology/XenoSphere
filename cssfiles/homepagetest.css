@@ -48,7 +48,7 @@ footer {
     position: relative;
     left: 0;
     max-width: 100%;
-    background-image:url("images/artificial.png");
+    background-image:url("../images/artificial.png");
 }
 
 body {
