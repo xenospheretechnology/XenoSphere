@@ -107,7 +107,4 @@ body {
     color: #aaa;
     margin-right: 0.5em;
   }
-  input[type="date"]:focus:before,
-  input[type="date"]:valid:before {
-    content: "";
-  }
+
