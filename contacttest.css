@@ -71,7 +71,7 @@ body {
 }
 
 .contact-right {
-    flex-basis: 40%;
+    flex-basis: 30%;
     padding: 20px;
     background-color: rgb(7, 235, 243);
 }
