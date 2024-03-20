@@ -141,3 +141,7 @@ footer {
     margin-top: 20%;
     font-family: "Rubik", sans-serif; /* Specify the Rubik font */
 }
+
+.apptitle {
+    padding-top: 25px;
+}
