@@ -102,7 +102,3 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
-  input[type="date"]:after {
-    content: attr(placeholder) !important;
-  }
-
