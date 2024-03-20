@@ -54,7 +54,7 @@ body {
 }
 
 .container {
-    max-width: 80%;
+    max-width: 100%;
     margin: 50px auto;
     padding-top: 30px;
 }
@@ -87,8 +87,7 @@ body {
 form {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    max-width: 400px;
+    max-width: 100%;
     margin: auto;
     padding-bottom: 30px;
 }
