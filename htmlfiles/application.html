@@ -30,13 +30,13 @@
             </div>
             <input type="hidden" name="access_key" value="479337f5-b2ca-4525-9158-a487b78121bf">
             <input type="text" name="first name" placeholder="Your first Name" class="contact-inputs" required>
-            <input type="text" name="last name" placeholder="Your last Name" class="contact-inputs" required>
-            <label for="birthday" class="contact-inputs" required> Date of Birth:</label>
+            <input type="text" name="last name" placeholder="Your last Name" class="contact-inputs" required> <!-- name -->
+            <label for="birthday" class="contact-inputs" required> Date of Birth:</label> <!-- Label for birthday field because place holder doesn't work mobile -->
             <input type="date" name="birthday" placeholder="mm/dd/yyyy" class="contact-inputs" required>
             <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
             <input type="number" id="phone" placeholder="Phone Number" class="contact-inputs" required>
             <label for="open-positions" class="contact-inputs" required>Choose your job position: </label> 
-            <select name="open-positions" id="open-positions" required> 
+            <select name="open-positions" id="open-positions" required> <!-- drop down menu for job positions -->
                 <option value="none">Pick one of the jobs below</option>
                 <option value="Softwaredev">Software Developer</option> 
                 <option value="Datanalyst">Data Analyst</option> 
@@ -45,16 +45,17 @@
                 <option value="Projectman">Project Manager</option>
                 <option value="Productman">Product manager</option>
             </select>
+            <input type="text" name="address" placeholder="Your Home Address" class="contact-inputs" required>
             <label for="file" class="contact-inputs" required>Upload your Resume: </label> 
             <input type="file" id="resume" name="resume" placeholder="upload resume" class="contact-inputs">
             <textarea name="message" placeholder="Tell us more about yourself" class="contact-inputs"></textarea> 
-            <button href="contact.html" type="submit"> Submit</button>
+            <button href="contact.html" type="submit"> Submit</button> <!-- submit -->
         </form>
     </div>
     <div class="contact-right">
     </div>
     <footer>
-      <div class="footer"
+      <div class="footer">
       <p>&copy; 2024 XenoSphere Tech. All rights reserved</p>
       <a class="cred" href="references.html">Credits</a>
     </div>
